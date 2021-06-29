@@ -3,7 +3,7 @@
 const {TRANSIENT, SINGLETON} = require('./constants');
 
 module.exports = {
-  DI: require('./DIContainer'),
+  DIContainer: require('./DIContainer'),
   TRANSIENT,
   SINGLETON,
 };

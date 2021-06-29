@@ -1,5 +1,5 @@
 {
-  "name": "ioc-container",
+  "name": "@next-generation-node/ioc-container",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,11 @@
   },
   "keywords": [
     "IoC",
-    "DI"
+    "DI",
+    "javascript",
+    "node",
+    "dependency injection",
+    "dependency inversion"
   ],
   "author": "Alexander Rozghon",
   "license": "ISC",

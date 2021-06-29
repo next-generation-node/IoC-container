@@ -1,0 +1,29 @@
+{
+  "name": "ioc-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "npx prettier --write {,!(node_modules)/**/}*.js",
+    "lint": "npx eslint --fix {,!(node_modules)/**/}*.js && npm run prettier",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-generation-node/IoC-container.git"
+  },
+  "keywords": [
+    "IoC",
+    "DI"
+  ],
+  "author": "Alexander Rozghon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/next-generation-node/IoC-container/issues"
+  },
+  "homepage": "https://github.com/next-generation-node/IoC-container#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.2"
+  }
+}
